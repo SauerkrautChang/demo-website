@@ -6,7 +6,7 @@ function submitButton () {
     let result = "";
 
     let quiz = document.forms.quiz.elements;
-    displayResult = document.getElementById('result');
+    const displayResult = document.getElementById('result');
 
     let answer1 = quiz.day.value;
 
@@ -98,7 +98,7 @@ function submitButton () {
         result = "skate Gooseside DIY before they tear it down to erect more office buildings and overpriced apartments";
     }
     else if (score < 20) {
-        result = "skate projects (but try and sneak past the desk otherwise they try and make you pay";
+        result = "skate projects (but try and sneak past the desk otherwise they try and make you pay)";
     }
     else {
         result = "skate Platfields, but make sure its day time";
