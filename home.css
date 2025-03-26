@@ -59,15 +59,15 @@ body {
     grid-column-end: 5;
     text-align: center;
     font-size: 1.5rem;
-    background-image: url(metropolus_1_150x113.jpeg); /* source: me */ /*pls work */
+    background-image: url(petition-gif.compressed.gif); /* source: me */ 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 250px;
 }
 
 .petition-text {
-    padding-top: 80px;
+    padding-top: 110px;
     color: white;
     font-size: 2.2rem;
 }
@@ -88,11 +88,12 @@ a:active {
     text-decoration: none;
 }
 
-.blog {
+.videos {
     grid-column-start: 1;
     grid-column-end: 5;
     padding-bottom: 2rem;
     padding-top: 2rem;
+    padding-left: 1.5%;
 }
 
 .showcase {
