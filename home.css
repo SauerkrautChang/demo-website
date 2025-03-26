@@ -59,7 +59,7 @@ body {
     grid-column-end: 5;
     text-align: center;
     font-size: 1.5rem;
-    background-image: url(petition-gif.compressed.gif); /* source: me */
+    background-image: url(petition-gif.compressed.gif); /* source: me */ /*pls work */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
