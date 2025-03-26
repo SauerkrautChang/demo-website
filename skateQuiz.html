@@ -3,28 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="css" href="home.css">
+    <link rel="stylesheet" href="skateQuiz.css">
     <title>skatepark-calculator</title>
 </head>
 <body>
-    <header class="header">
-    <h3>*Insert justification for this quiz here*</h3>
-    </header>
-
     <nav>
         <div class="navbar">
             <div class="dropdown">
               <button class="dropbtn">[][][][][]</button>
               <div class="dropdown-content">
-                <a href="#">Home</a>
+                <a href="index.html">Home</a>
                 <a href="sign-up.html">Petition</a>
-                <a href="#">Showcase</a>
+                <a href="#">Videos</a>
               </div>
             </div>
           </div>
     </nav>
+
+    <h3 class="header">*Insert justification for this quiz here*</h3>
+
     <main class="quiz-container">
         <section class="quiz">
+
+            <div class="result-div hidden" id="result"></div>
+
             <form name="quiz">
                 <fieldset class="question1">
                     <legend>What's your favourite day of the week?</legend>
@@ -44,7 +46,7 @@
                     <label for="sunday">Sunday</label>
                 </fieldset>
                 <fieldset class="question2">
-                    <legend>What's your preferred choice of cheese</legend>
+                    <legend>What's your preferred choice of cheese?</legend>
                     <input type="radio" name="cheese" id="brie" value="brie">
                     <label for="brie">Brie</label>
                     <input type="radio" name="cheese" id="wensleydale" value="wensleydale">

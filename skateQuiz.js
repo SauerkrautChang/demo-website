@@ -6,6 +6,7 @@ function submitButton () {
     let result = "";
 
     let quiz = document.forms.quiz.elements;
+    displayResult = document.getElementById('result');
 
     let answer1 = quiz.day.value;
 
@@ -91,10 +92,10 @@ function submitButton () {
     //dom manipulation for result
 
     if (score < 8) {
-        result = "skate Linlcon Square";
+        result = "skate Lincoln Square";
     }
     else if (score < 16) {
-        result = "skate Gooseside DIY before they tear it down to erect more office buildings and overpriced apaetments";
+        result = "skate Gooseside DIY before they tear it down to erect more office buildings and overpriced apartments";
     }
     else if (score < 20) {
         result = "skate projects (but try and sneak past the desk otherwise they try and make you pay";
@@ -103,9 +104,9 @@ function submitButton () {
         result = "skate Platfields, but make sure its day time";
     }
 
+    displayResult.textContent = `You should ${result}`;
     console.log(result);
-
-    alert(`You should ${result}`);
+    displayResult.classList.remove('hidden');
 
 }
 
