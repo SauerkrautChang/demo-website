@@ -95,7 +95,7 @@ function submitButton () {
         result = "skate Lincoln Square";
     }
     else if (score < 16) {
-        result = "skate Gooseside DIY before they tear it down to erect more office buildings and overpriced apartments";
+        result = "skate Gooseside DIY before they tear it down and erect more office buildings and overpriced apartments";
     }
     else if (score < 20) {
         result = "skate projects (but try and sneak past the desk otherwise they try and make you pay)";

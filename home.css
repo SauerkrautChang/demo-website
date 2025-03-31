@@ -51,7 +51,7 @@ body {
 
 .description-text {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .petition {
@@ -103,7 +103,7 @@ a:active {
     flex-direction: row;
     flex-wrap: wrap;
     padding-left: 1.5%;
-    padding-right: 1%;
+    padding-right: 0;
     gap: 2vw;
 }
 
