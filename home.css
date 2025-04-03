@@ -67,7 +67,7 @@ body {
 }
 
 .petition-text {
-    padding-top: 110px;
+    padding-top: 100px;
     color: white;
     font-size: 2.2rem;
 }
@@ -221,19 +221,28 @@ footer {
 /* mobile resolution */
 
 @media screen and (max-width: 600px) {
-
+.container {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
 }
 
 /* tablet resolution */
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
-    
+    .container {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
 } 
 
 /* desktop resolution */
 
 @media screen and (min-width: 900px) {
-    
+    .container {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
 }
 
 /* the mobile resolution is faulty, find fix */
